@@ -1,0 +1,90 @@
+body {
+    margin: 30px;
+    /*
+    Challenge:
+    Find a web safe font you like, and add it 
+    to your card.
+    */
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.avatar {
+    width: 150px;
+    border-radius: 2px;
+    
+}
+
+.card {
+    width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    display: flex;
+    justify-content: space-around;
+    color: #2b2839;
+    text-align: center;
+    
+    background: #adb5bd;
+    border-bottom: 6px solid #495057;
+    
+    border-radius:2px ;
+        
+    /*
+    Challenge:
+    Find a color palette you like on Coolors.co
+    and use it in your business card.
+     */
+}
+
+.border-blue {
+    border: 1px dotted blue;
+}
+.btn
+{
+    background-color: #adb5ba;
+    border: 1px solid #2B2839;
+    border-radius: 10px;
+    padding: 9px 18px;
+    margin: 3px;
+    cursor: pointer;
+}
+a
+{
+    text-decoration: none;
+    color: #2b2839;
+}
+
+#insta-btn:hover
+{
+  background: linear-gradient(
+                                45deg,
+                                #f58529,
+                                #feda77,
+                                #dd2a7b,
+                                #8134af,
+                                #515bd4
+                            );
+}
+
+
+#linkedin-btn:hover
+{
+  background: linear-gradient(
+                                45deg,
+                                #0077b5,
+                                #0a66c2,
+                                #00a0dc
+                            );
+}
+
+/*
+Stretch goals:
+Find other ways you can personalize 
+the design of your business card, e.g.:
+- change the border(s)
+- add border radius
+- shuffle the layout
+- shadows        🤯
+- hover effects  🤯🤯
+- animations     🤯🤯🤯
+*/
+
